@@ -1,0 +1,98 @@
+#main1 {
+  width: 100%;
+  aspect-ratio: 1920 / 850;
+  height: auto;
+  position: relative;
+  background-color: #FDFDFD;
+}
+.title1{
+  font-size: 1.1vw;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #333;
+  padding: 3% 0 0 19%;
+}
+.box{
+  width: 75vw;
+  height: auto;
+  aspect-ratio: 1345 / 600;
+  background-color: #FBFBFB;
+  border-radius: 50px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.25);
+  margin: 3.5% 0 0 13%;
+  position: relative;
+  overflow: hidden;
+}
+.profile{
+  width: 15%;        
+  height: auto;      
+  object-fit: cover;
+  margin: 8% 0 0 8%;
+}
+.txt{
+  position: absolute;
+  top: 10%;
+  right: 8%;
+}
+.greeting{
+  font-size: 1vw;
+  font-weight: 500;
+  line-height: 1.8vw;
+  color: #333;
+}
+.education{
+  font-size: 0.85vw;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.5vw;
+  color: #333;
+}
+@media screen and (max-width:960px){
+  .profile{
+    width: 10%;
+    margin-left: 82%;
+    margin-top: 18%;
+  }
+  .greeting{
+    font-size: 1.3vw;
+    letter-spacing: 0.03em;
+    line-height: 2vw;
+  }
+  .education{
+    font-size: 1.05vw;
+    letter-spacing: 0.03em;
+  }
+}
+
+.icon-container{
+  position: absolute;
+  display: flex;
+  top: 75%;
+  width: 100%;
+  animation: slideIcons 40s linear infinite;
+}
+.icon{
+  display: flex;
+  flex-shrink: 0;
+  width: max-content;
+  justify-content: flex-start;
+}
+.icon img{
+  width: 5vw;
+  height: auto;    
+  object-fit: contain;
+  margin-right: 3vw;
+  transition: transform 0.2s ease;
+}
+.icon img:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+@keyframes slideIcons{
+  0% {transform: translateX(0);}
+  100% {transform: translateX(-100%);}
+}
+
+
+
+

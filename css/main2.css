@@ -57,7 +57,7 @@ article:nth-of-type(1) > a >.p_box {
   position: absolute;
   top: 13%;
   left: 16%;
-  background: url(/img/minumsa.png) center top/cover;
+  background: url(img/minumsa.png) center top/cover;
   color: transparent;
   transition: transform 0.3s ease, border 0.2s ease;
 }
@@ -72,7 +72,7 @@ article:nth-of-type(2) > a > .p_box {
   position: absolute;
   top: 13%;
   right: 14%;
-  background: url(/img/golden.png) center top/cover;
+  background: url(img/golden.png) center top/cover;
   color: transparent;
   transition: transform 0.3s ease, border 0.2s ease;
 }
@@ -87,7 +87,7 @@ article:nth-of-type(3) > a > .p_box {
   position: absolute;
   top: 53%;
   left: 16%;
-  background: url(/img/seoul.png) center top/cover;
+  background: url(img/seoul.png) center top/cover;
   color: transparent;
   transition: transform 0.3s ease, border 0.2s ease;
 }
@@ -102,7 +102,7 @@ article:nth-of-type(4) > a > .p_box {
   position: absolute;
   top: 53%;
   right: 14%;
-  background: url(/img/seven.png) center top/cover;
+  background: url(img/seven.png) center top/cover;
   color: transparent;
   transition: transform 0.3s ease, border 0.2s ease;
 }

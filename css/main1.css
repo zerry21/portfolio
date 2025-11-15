@@ -25,7 +25,8 @@
 }
 .profile{
   width: 15%;        
-  height: auto;      
+  height: auto;  
+  border-radius: 40%;    
   object-fit: cover;
   margin: 8% 0 0 8%;
 }
@@ -79,7 +80,7 @@
 }
 .icon img{
   width: 5vw;
-  height: auto;    
+  height: auto;
   object-fit: contain;
   margin-right: 3vw;
   transition: transform 0.2s ease;
